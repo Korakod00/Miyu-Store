@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* ------- ||SHORTCUT -------*/
+:root {
+    --color-primary: #8342c5;
+    --color-secondary: #c77dff;
+    --color-tertiary: blueviolet;
+}
+
+body {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-image: url("../image/bg-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+/* ------- ||MENU ------- */
+.w-full {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.max-w {
+    max-width: 90rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* image logo */
+.text-white {
+    width: 10rem;
+    height: auto;
+}
+
+.max-w2 {
+    max-width: 100%;
+}
+
+
+/* menu text */
+.flex ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.ft-size {
+    font-size: 2rem;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.px-1 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.py-1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+/* ------- ||BANNER ------- */
+.banner {
+    width: 80%;
+    height: auto;
+    display: block;
+    border-radius: 0.75rem;
+    margin: 2rem auto;
+}
+
+
+/* ------- ||CARD SHOP ------- */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem;
+    overflow: hidden;
+}
+
+
+/* ------- customize card ------- */
+.bg-product {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+}
+
+.border-product {
+    border: 2px solid transparent;
+    transition: border-color 0.2s cubic-bezier(0.08, 0.52, 0.52, 1);
+}
+
+.border-product:hover {
+    border-color: var(--color-tertiary);
+}
+
+.padding-content {
+    padding: 2rem;
+}
+
+.flex-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.w-product {
+    width: 100%;
+}
+
+.w-img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.border {
+    border-radius: 1rem;
+}
+
+/* ------- body card ------- */
+.flex-text {
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.text-size figcaption {
+    font-size: 2rem;
+}
+
+.text-size p {
+    font-size: 1.5rem;
+}
+
+.p-color {
+    color: var(--color-secondary);
+}
+
+.w-600 {
+    font-weight: 600;
+}
+
+/* ------- button card ------- */
+.border-half {
+    border-radius: 0.5rem;
+}
+
+.pd-bt {
+    padding: 0.35rem;
+}
+
+.mgt-bt {
+    margin-top: 1rem;
+}
+
+.color-bt {
+    background-color: var(--color-primary);
+    color: white;
+}
