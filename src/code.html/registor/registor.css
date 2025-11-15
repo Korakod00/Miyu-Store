@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* ------- ||SHORTCUT -------*/
+:root {
+    --color-primary: #8342c5;
+    --color-secondary: #c77dff;
+    --color-tertiary: blueviolet;
+}
+
+body {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    background-image: url("../../image/bg-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+}
+
+
+/* ------- ||MENU ------- */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.max-w {
+    width: 100%;
+    max-width: 90rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ------- image logo ------- */
+.text-white {
+    width: 10rem;
+    height: auto;
+}
+
+.max-w2 {
+    max-width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+
+
+/* ------- menu text ------- */
+.flex ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 1rem;
+}
+
+.ft-size {
+    font-size: 2rem;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.px-1 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.py-1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.decoration {
+    text-decoration: none;
+    color: white;
+}
+
+.hv-color:hover {
+    color: var(--color-secondary);
+}
+
+
+/* ------- ||COMING SOON -------*/
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    font-size: 2rem;
+}
