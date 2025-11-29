@@ -24,7 +24,7 @@ body {
     font-weight: 500;
     font-style: normal;
     font-variation-settings: "wdth" 100;
-    background-image: url("../static/image/bg-image.jpg");
+    background-image: url("../image/bg-image.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -208,7 +208,6 @@ body {
 }
 
 .pd-bt {
-    width: 100%;
     padding: 0.35rem;
 }
 
@@ -219,47 +218,4 @@ body {
 .color-bt {
     background-color: var(--color-primary);
     color: white;
-}
-
-
-/* ------- ||RESPON -------*/
-/*------- mobile -------*/
-@media (max-width: 576px) {
-
-    /* ||MENU */
-    .respon {
-        display: none;
-    }
-
-    .max-w {
-        width: 90%;
-    }
-
-    .menu-size {
-        font-size: 1.8rem;
-    }
-
-    /* ||BANNER */
-    .banner {
-        width: 90%;
-    }
-    
-    /* ||CARD SHOP */
-    .card {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-/* ------- tablet -------*/
-@media (min-width: 601px) and (max-width: 1024px) {
-    
-    /* ||MENU */
-    .max-w {
-        width: 90%;
-    }
-
-    /* ||BANNER */
-    .banner {
-        width: 95%;
-    }
 }
